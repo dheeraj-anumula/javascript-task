@@ -8,17 +8,15 @@ function basicOp(operation, value1, value2)
   var result;
   switch(operation){
     case '+':
-      result=value1+value2;
-      break;
+      return value1+value2;
+      
     case '-':
-      result=value1-value2;
-      break;
+      return value1-value2;
+      
     case '*':
-      result=value1*value2;
-      break;
+      return value1*value2;
+      
     case '/':
-      result=value1/value2;
-      break;
+      return value1/value2;
   }
-  return result;
 }
